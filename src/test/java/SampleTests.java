@@ -9,8 +9,8 @@ public class SampleTests extends MainDriver {
     HomePage homePage;
     @Test
     public void verifyHomePageElementCount() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
-        homePage = new HomePage(driver);
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+//        homePage = new HomePage(driver);
         Assert.assertEquals(12, homePage.getCountOfElements());
         System.out.println("Executed");
 
