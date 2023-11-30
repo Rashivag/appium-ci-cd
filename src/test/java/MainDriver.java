@@ -43,6 +43,6 @@ public class MainDriver {
 
     @AfterSuite
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 }
