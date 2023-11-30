@@ -36,7 +36,7 @@ public class MainDriver {
 
 
 
-        driver = new AndroidDriver(new URL("http://127.0.0.1:9000/wd/hub"), desiredCapabilities);
+        //driver = new AndroidDriver(new URL("http://127.0.0.1:9000/wd/hub"), desiredCapabilities);
 
 
     }
